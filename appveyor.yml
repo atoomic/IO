@@ -7,23 +7,21 @@ environment:
     - perl_type: strawberry
     - perl_type: cygwin
     - perl_type: strawberry
-      perl_version: 5.24.3
+      perl_version: 5.24.3.1
     - perl_type: strawberry
-      perl_version: 5.20.3
+      perl_version: 5.20.3.3
     - perl_type: strawberry
-      perl_version: 5.18.4
+      perl_version: 5.18.4.1
     - perl_type: strawberry
-      perl_version: 5.16.3
+      perl_version: 5.16.3.1
     - perl_type: strawberry
-      perl_version: 5.14.4
+      perl_version: 5.14.4.1
     - perl_type: strawberry
-      perl_version: 5.12.5
+      perl_version: 5.12.3.0
     - perl_type: strawberry
-      perl_version: 5.10.1
+      perl_version: 5.10.1.5
     - perl_type: strawberry
-      perl_version: 5.8.9
-    - perl_type: strawberry
-      perl_version: 5.6.2
+      perl_version: 5.8.9.5
 
 install:
   - 'call appveyor.cmd perl_setup'
