@@ -22,3 +22,6 @@ build: off
 
 test_script:
   - 'prove -l t'
+
+matrix:
+  fast_finish: true
